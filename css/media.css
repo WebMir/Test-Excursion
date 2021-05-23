@@ -1,0 +1,224 @@
+@media screen and (min-width: 1920px) {
+
+
+}
+@media screen and (max-width: 1680px) {
+
+
+ }
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1400px) {
+
+}
+@media screen and (max-width: 1300px) {
+
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 1280px) {
+
+@media screen and (max-width: 1100px) {
+
+
+}
+@media screen and (max-width: 1000px) {
+
+}
+@media screen and (max-width: 980px) {
+  
+}
+
+ @media screen and (min-width: 660px) {
+    .card{
+        margin: auto;
+        width: 100%;
+        min-width: 200px;	
+        max-width: 1070px;
+        min-height: 370px;
+        border: 0.3px solid #828282;
+        border-radius: 16px;
+        overflow: hidden;
+        display: flex;
+    }
+    .card__header{
+        
+      width: 40%;
+    }
+    .card__cover{
+        background: url(../img/e3.jpg) 50% 50%;
+      width: 100%;
+        height: 100%;
+        background-size: cover;
+        position: relative;
+    }
+    .nev1:before{
+        content: "НОВИНКА";
+        background: #FED74B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        height: 35px;
+        position: absolute;
+        left: -1%;
+        top: 25%;
+    }
+    .nev2:before{
+        content: "НОВИНКА";
+        background: #7553FF;
+        border-radius: 15px 0px 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        height: 35px;
+        position: absolute;
+        left: -1%;
+        top: 0%;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .xxx{
+        width: 60%;
+        padding: 14px 12px;
+        border: 0.3px solid #828282;
+        border-radius: 16px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 3% 3%;
+    }
+    .card__body{
+    }
+    .card__time{
+        width: 108px;
+        height: 23px;
+    
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+    
+        color: #9E9E9E;
+        
+    }
+    .card__time img{
+        vertical-align: text-top;
+        margin: 0 5%;
+    }
+    
+    .card__title{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 34px;
+        color: #000000;
+    }
+    .card__copy{
+        margin: 0 5%;
+    }
+    .card__copy-item{
+        position: relative;
+        margin: 5% 0;
+    
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        color: #4B4B4B;
+    }
+    .card__schedule-li{
+        margin: 0  1%;
+        padding: 1% 5%;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #343434;
+        background: #D9E8FF;
+        border-radius: 11px;
+    }
+    
+    
+    
+    .card__footer{
+        display: flex;
+        justify-content: flex-start;
+        margin: 7% 0 3% 0;
+    }
+    .card__price{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 5%;
+        
+    }
+    .price { 
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 20px;
+        color: #000000;
+        margin-bottom: 3%;
+    }
+    .price:after { 
+        content:" \20BD"; 
+    }
+    
+    .price-subtitle{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    
+    
+    }
+    
+    .button{
+    
+        width: 187px;
+        height: 52px;
+        font-size: 18px;
+        background: #FED74B;
+        border: 0.5px solid #CBA500;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+
+
+ }
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 1300px) {
+   body{
+       font-size: 95%;
+   }
+}
+@media screen and (max-width: 1300px) {
+   body{
+       font-size: 95%;
+   }
+}@media screen and (max-width: 1300px) {
+   body{
+       font-size: 95%;
+   }
+} */
